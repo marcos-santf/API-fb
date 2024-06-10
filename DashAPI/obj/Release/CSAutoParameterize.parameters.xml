@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="fbDashConnectionString-Web.config Connection String" description="fbDashConnectionString A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="Data Source=testegravacao.database.windows.net;Initial Catalog=fbDash;User ID=MARCOS;Password=m46148397@" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Marco\\Desktop\\DashAPI\\DashAPI\\DashAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='fbDashConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

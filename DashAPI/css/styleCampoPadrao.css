@@ -1,0 +1,75 @@
+﻿input[type="date" i] {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.estilo-cbo {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.estilo-hora {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#gridView {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+    #gridView th {
+        background-color: #5d808a;
+        color: #fff;
+        font-weight: bold;
+        padding: 1px;
+        text-align: center;
+        border: 1px solid #ddd;
+        font-size: 12px;
+    }
+
+    #gridView td {
+        padding: 1px;
+        text-align: center;
+        border: 1px solid #ddd;
+        font-size: 10px;
+    }
+
+    #gridView tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+.action-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#scanButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+
+}
+@media (max-width: 800px) {
+    .section-common-style {
+        margin-right: 0%;
+    }
+}
